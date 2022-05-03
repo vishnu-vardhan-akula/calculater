@@ -2,7 +2,7 @@ function show() {
 	document.getElementById("result").style.display = "block";
 };
 
-function compute() {
+function calculate() {
 	var principal = document.getElementById("principal").value;
 	if(parseInt(principal) < 1) {
 		alert("Enter a positive number");
@@ -23,7 +23,7 @@ function compute() {
 	document.getElementById("interestmessage").innerHTML = ""+rate;
 	document.getElementById("amountmessage").innerHTML = ""+interest;
 	document.getElementById("yearmessage").innerHTML = ""+yearOfWithdrawal;
-	showMessage();
+	show();
 
 	return false;
 };
