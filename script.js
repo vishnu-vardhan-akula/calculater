@@ -1,4 +1,4 @@
-function showMessage() {
+function show() {
 	document.getElementById("result").style.display = "block";
 };
 
